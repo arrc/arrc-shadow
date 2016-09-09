@@ -55,6 +55,24 @@
       border-radius: 3px;
       background: rgba(0, 0, 0, 0.5);
       color: aqua; }
+  .ar_hero .intro-text .ar_social_wrapper {
+    margin: 100px auto 0;
+    width: 100px; }
+    .ar_hero .intro-text .ar_social_wrapper .ar_i_avatar_wrapper {
+      margin: 0 auto 10px;
+      overflow: hidden;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%; }
+      .ar_hero .intro-text .ar_social_wrapper .ar_i_avatar_wrapper img {
+        max-width: 100%;
+        max-height: auto; }
+    .ar_hero .intro-text .ar_social_wrapper .ar_i_links {
+      margin: 0 auto; }
+    .ar_hero .intro-text .ar_social_wrapper .ar_i_icon {
+      padding: 5px; }
+      .ar_hero .intro-text .ar_social_wrapper .ar_i_icon a:hover {
+        color: aqua; }
 
 @media (min-width: 768px) {
   .ar_hero .intro-text {

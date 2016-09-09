@@ -79,6 +79,37 @@
                  color: aqua;
              }
          }
+         
+         // Social links
+         .ar_social_wrapper {
+             margin: 100px auto 0;
+             width: 100px;
+             
+             .ar_i_avatar_wrapper {
+                margin: 0 auto 10px;
+                overflow: hidden;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                 
+                 img {
+                    max-width: 100%;
+                    max-height: auto;
+                 }
+             }
+             
+             .ar_i_links {
+                 margin: 0 auto;
+             }
+             
+             .ar_i_icon {
+                 padding: 5px;
+                 
+                 a:hover {
+                     color: aqua;
+                 }
+             }
+         }
      }
  }
 

@@ -29,11 +29,14 @@
 
 p {
   font-family: 'clearsans-light';
-  letter-spacing: 0.6pt; }
+  letter-spacing: 0.6pt;
+  color: #555; }
 
-.ar_heading, h3, h2 {
-  margin: 20px;
+.section-heading {
   color: goldenrod; }
+
+.section-heading, h3, h2 {
+  margin: 20px; }
 
 .ar_subheading {
   font-family: 'aleo' !important;
@@ -138,3 +141,13 @@ section {
   .ar_bio_wrapper p {
     margin: 0 auto;
     width: 60%; }
+
+.ar_ican_unit {
+  min-height: 300px; }
+  .ar_ican_unit:hover {
+    background-color: azure; }
+  .ar_ican_unit p {
+    text-align: left; }
+    .ar_ican_unit p:before {
+      content: '\2022';
+      margin-right: 5px; }

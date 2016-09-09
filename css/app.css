@@ -143,7 +143,7 @@ section {
     width: 60%; }
 
 .ar_ican_unit {
-  min-height: 300px; }
+  min-height: 350px; }
   .ar_ican_unit:hover {
     background-color: azure; }
   .ar_ican_unit p {
@@ -151,3 +151,39 @@ section {
     .ar_ican_unit p:before {
       content: '\2022';
       margin-right: 5px; }
+
+#portfolio .portfolio-item .portfolio-caption {
+  padding: 20px 5px; }
+
+.ar_portfolio_caption .ar_i_description {
+  font-family: 'aleo' !important;
+  font-size: 12px !important;
+  height: 30px; }
+  .ar_portfolio_caption .ar_i_description .ar_i_hashpix {
+    text-decoration: underline; }
+
+.ar_portfolio_meta {
+  margin: 10px 10px 0 10px;
+  padding: 10px 10px 0 10px;
+  height: 50px; }
+  .ar_portfolio_meta .ar_i_tags {
+    text-align: left;
+    width: 70%; }
+  .ar_portfolio_meta .ar_i_tag {
+    display: inline-block;
+    font-family: 'clearsans';
+    padding: 2px 5px;
+    margin-top: 5px;
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: aliceblue; }
+    .ar_portfolio_meta .ar_i_tag:not(:last-child):after {
+      content: ','; }
+    .ar_portfolio_meta .ar_i_tag:hover {
+      background-color: rgba(0, 255, 255, 0.3);
+      cursor: pointer; }
+  .ar_portfolio_meta .ar_i_links a {
+    padding: 5px;
+    color: goldenrod; }
+  .ar_portfolio_meta .ar_i_links a:hover {
+    color: rgba(0, 255, 255, 0.6); }

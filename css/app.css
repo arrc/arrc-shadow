@@ -12,12 +12,50 @@
   src: url("../../fonts/aleofont/ttf/aleo-light-webfont.ttf") format("truetype"); }
 
 @font-face {
+  font-family: 'clearsans';
+  src: url("../../fonts/clearsans/ttf/ClearSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'clearsans-light';
+  src: url("../../fonts/clearsans/ttf/ClearSans-Light.ttf") format("truetype"); }
+
+@font-face {
   font-family: 'clearsans-thin';
   src: url("../../fonts/clearsans/ttf/ClearSans-Thin.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'cutive';
   src: url("../../fonts/cutive/Cutive-Regular.ttf") format("truetype"); }
+
+p {
+  font-family: 'clearsans-light';
+  letter-spacing: 0.6pt; }
+
+.ar_heading, h3, h2 {
+  margin: 20px;
+  color: goldenrod; }
+
+.ar_subheading {
+  font-family: 'aleo' !important;
+  font-style: italic; }
+
+section {
+  padding: 40px; }
+  section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px; }
+  section h3.section-subheading {
+    font-size: 16px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px; }
+
+@media (min-width: 768px) {
+  section {
+    padding: 90px; } }
 
 .ar_hero {
   background-image: url("../img/header-bg-funky.jpg");
@@ -91,3 +129,12 @@
       font-size: 75px;
       line-height: 75px;
       margin-bottom: 50px; } }
+
+#ar_bio_section {
+  background-color: ghostwhite; }
+
+.ar_bio_wrapper {
+  margin-top: 20px; }
+  .ar_bio_wrapper p {
+    margin: 0 auto;
+    width: 60%; }

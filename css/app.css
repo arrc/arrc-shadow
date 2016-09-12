@@ -187,11 +187,33 @@ section {
     .ar_portfolio_meta .ar_i_tag:hover {
       background-color: rgba(0, 255, 255, 0.3);
       cursor: pointer; }
-  .ar_portfolio_meta .ar_i_links a {
-    padding: 5px;
-    color: goldenrod; }
-  .ar_portfolio_meta .ar_i_links a:hover {
-    color: rgba(0, 255, 255, 0.6); }
+  .ar_portfolio_meta .ar_i_links {
+    font-size: 1.5em; }
+    .ar_portfolio_meta .ar_i_links a {
+      padding: 5px;
+      color: goldenrod; }
+    .ar_portfolio_meta .ar_i_links a:hover {
+      color: rgba(0, 255, 255, 0.6); }
+
+.modal-content .ar_modal_features {
+  text-align: left;
+  font-family: 'clearsans-light'; }
+
+.modal-content h5 {
+  text-align: left; }
+
+.modal-content .ar_modal_techstack {
+  text-align: left;
+  font-family: 'clearsans-light';
+  font-size: 1em; }
+
+@media (min-width: 768px) {
+  .modal-content {
+    padding-top: 0 !important; }
+    .modal-content .ar_modal_image_container {
+      margin-top: 30px; }
+      .modal-content .ar_modal_image_container .ar_i_wrapper {
+        height: 200px; } }
 
 section.ar_contact {
   height: 100vh;

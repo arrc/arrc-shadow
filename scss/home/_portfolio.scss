@@ -44,6 +44,7 @@
     }
     
     .ar_i_links {
+        font-size: 1.5em;
         a {
             padding: 5px;
             color: goldenrod;
@@ -53,3 +54,33 @@
         }
     }
 }
+
+.modal-content {
+    .ar_modal_features {
+        text-align: left;
+        font-family: 'clearsans-light';
+    }
+    h5 {
+        text-align: left;
+    }
+    .ar_modal_techstack {
+        text-align: left;
+        font-family: 'clearsans-light';
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-content {
+//        text-align: left !important;
+        padding-top: 0 !important;
+        
+        .ar_modal_image_container {
+            margin-top: 30px;
+            .ar_i_wrapper {
+                height: 200px;
+            }
+        }
+    }
+}
+    

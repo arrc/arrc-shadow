@@ -60,6 +60,10 @@ section {
   section {
     padding: 90px; } }
 
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: rgba(0, 0, 0, 0.7); } }
+
 .ar_hero {
   background-image: url("../img/header-bg-funky.jpg");
   color: white;
@@ -72,7 +76,8 @@ section {
     margin: 0 auto;
     width: 70%; }
     .ar_hero .intro-text .ar_i_lead_wrapper .ar_i_hi {
-      font-family: 'aleo-light'; }
+      font-family: 'clearsans-thin';
+      font-style: normal; }
     .ar_hero .intro-text .ar_i_lead_wrapper .ar_i_typewritter {
       display: inline-block;
       font-family: 'aleo-light';
@@ -187,3 +192,20 @@ section {
     color: goldenrod; }
   .ar_portfolio_meta .ar_i_links a:hover {
     color: rgba(0, 255, 255, 0.6); }
+
+section.ar_contact {
+  height: 100vh;
+  padding: 90px 0 0 0;
+  background-image: url("../img/lake.jpg") !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
+  section.ar_contact .section-heading {
+    color: goldenrod !important; }
+  section.ar_contact textarea {
+    height: 150px !important; }
+  section.ar_contact footer {
+    color: white;
+    margin-top: 6.3%;
+    background-color: rgba(0, 0, 0, 0.7); }

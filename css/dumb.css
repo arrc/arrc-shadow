@@ -1,0 +1,36 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.ar_contact {
+    height: 100vh;
+    padding: 90px 0 0 0;
+    background-image: url('../img/lake.jpg') !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+
+.ar_contact .ar_contact_row {
+    margin-top: 4%;
+}
+
+section.section-heading {
+        color: goldenrod !important;
+    }
+    
+#contact textarea {
+    height: 150px !important;
+}
+
+#contact footer {
+    height: 70px;
+    color: white;
+    margin-top: 6.3%;
+    background-color: rgba(0,0,0,0.6);;
+}

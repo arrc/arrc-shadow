@@ -36,9 +36,6 @@
      
      
      .intro-text {
-         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
          .ar_i_lead_wrapper {
             border-radius: 3px;
             background-color: rgba(black, 0.6);
@@ -124,20 +121,15 @@
 @media(min-width:768px) {
     .ar_hero {
         .intro-text {
-            display: flex;
-        flex-direction: column;
-        justify-content: space-between;
 //            padding-top: 200px;
 //            padding-bottom: 200px;
             .intro-lead-in {
-//                @include serif-font;
                 font-style: italic;
                 font-size: 40px;
                 line-height: 40px;
                 margin-bottom: 25px;
             }
             .intro-heading {
-//                @include heading-font;
                 font-weight: 700;
                 font-size: 75px;
                 line-height: 75px;

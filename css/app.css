@@ -5,7 +5,7 @@
  */
 @font-face {
   font-family: 'aleo';
-  src: url("../../fonts/aleofont/ttf/aleo-regular-webfont.ttf") format("truetype"); }
+  src: url("https://fonts.googleapis.com/css?family=Slabo+13px") format("truetype"); }
 
 @font-face {
   font-family: 'aleo-light';
@@ -45,12 +45,13 @@ p {
 section {
   padding: 40px; }
   section h2.section-heading {
+    font-family: 'Raleway';
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
     font-size: 16px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Slabo 13px' !important;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
@@ -76,22 +77,24 @@ section {
     margin: 0 auto;
     width: 70%; }
     .ar_hero .intro-text .ar_i_lead_wrapper .ar_i_hi {
-      font-family: 'clearsans-thin';
-      font-style: normal; }
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 300; }
     .ar_hero .intro-text .ar_i_lead_wrapper .ar_i_typewritter {
       display: inline-block;
-      font-family: 'aleo-light';
+      font-family: 'Slabo 13px';
       text-transform: none;
       font-weight: normal;
-      font-size: 2em;
-      line-height: 2em; }
+      font-size: 1.8em;
+      line-height: 1.8em; }
     .ar_hero .intro-text .ar_i_lead_wrapper .typed-cursor {
       font-size: 2.2em;
       line-height: 2.2em; }
   .ar_hero .intro-text .ar_i_tags {
     margin-top: 20px; }
   .ar_hero .intro-text .ar_i_tag {
-    font-family: 'clearsans-thin';
+    font-family: 'Raleway';
+    font-weight: 300;
     font-size: 1em;
     line-height: 1em;
     letter-spacing: 1px;

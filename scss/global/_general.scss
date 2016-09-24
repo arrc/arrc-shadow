@@ -17,6 +17,14 @@ section {
     }
 }
 
+div, p, span {
+    font-family: 'Raleway';
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Slabo 13px';
+}
+
 @media(min-width:768px) {
     section {
         padding: 90px;

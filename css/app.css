@@ -57,6 +57,12 @@ section {
     font-weight: 400;
     margin-bottom: 75px; }
 
+div, p, span {
+  font-family: 'Raleway'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Slabo 13px'; }
+
 @media (min-width: 768px) {
   section {
     padding: 90px; } }
@@ -95,8 +101,8 @@ section {
   .ar_hero .intro-text .ar_i_tag {
     font-family: 'Raleway';
     font-weight: 300;
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 0.9em;
+    line-height: 0.9em;
     letter-spacing: 1px;
     padding: 10px;
     text-decoration: none; }

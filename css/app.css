@@ -27,6 +27,33 @@
   font-family: 'cutive';
   src: url("../../fonts/cutive/Cutive-Regular.ttf") format("truetype"); }
 
+section {
+  padding: 40px; }
+  section h2.section-heading {
+    font-family: 'Raleway';
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #1abc9c; }
+  section h3.section-subheading {
+    font-size: 16px;
+    font-family: 'Slabo 13px' !important;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px; }
+
+div, p, span {
+  font-family: 'Raleway'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Slabo 13px';
+  color: #1abc9c; }
+
+@media (min-width: 768px) {
+  section {
+    padding: 90px; } }
+
 p {
   font-family: 'clearsans-light';
   letter-spacing: 0.6pt;
@@ -41,31 +68,6 @@ p {
 .ar_subheading {
   font-family: 'aleo' !important;
   font-style: italic; }
-
-section {
-  padding: 40px; }
-  section h2.section-heading {
-    font-family: 'Raleway';
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px; }
-  section h3.section-subheading {
-    font-size: 16px;
-    font-family: 'Slabo 13px' !important;
-    text-transform: none;
-    font-style: italic;
-    font-weight: 400;
-    margin-bottom: 75px; }
-
-div, p, span {
-  font-family: 'Raleway'; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Slabo 13px'; }
-
-@media (min-width: 768px) {
-  section {
-    padding: 90px; } }
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
@@ -105,7 +107,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0.9em;
     letter-spacing: 1px;
     padding: 10px;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #fed136; }
     .ar_hero .intro-text .ar_i_tag:hover {
       border-radius: 3px;
       background: rgba(0, 0, 0, 0.5);
@@ -130,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
     .ar_hero .intro-text .ar_social_wrapper .ar_i_links {
       margin: 0 auto; }
       .ar_hero .intro-text .ar_social_wrapper .ar_i_links a {
-        color: goldenrod; }
+        color: #1abc9c; }
     .ar_hero .intro-text .ar_social_wrapper .ar_i_icon {
       padding: 5px; }
       .ar_hero .intro-text .ar_social_wrapper .ar_i_icon a:hover {

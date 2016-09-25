@@ -43,12 +43,56 @@ section {
     font-weight: 400;
     margin-bottom: 75px; }
 
+.text-primary {
+  color: goldenrod; }
+
 div, p, span {
   font-family: 'Raleway'; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Slabo 13px';
   color: #1abc9c; }
+
+.btn-xl {
+  color: white;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px; }
+  .btn-xl:focus, .btn-xl.focus {
+    color: white;
+    background-color: #148f77;
+    border-color: #0b4c3f; }
+  .btn-xl:hover {
+    color: white;
+    background-color: #148f77;
+    border-color: #13866f; }
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    color: white;
+    background-color: #148f77;
+    border-color: #13866f; }
+    .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
+    .open > .btn-xl.dropdown-toggle:hover,
+    .open > .btn-xl.dropdown-toggle:focus,
+    .open > .btn-xl.dropdown-toggle.focus {
+      color: white;
+      background-color: #0f705d;
+      border-color: #0b4c3f; }
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    background-image: none; }
+  .btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
+  fieldset[disabled] .btn-xl:hover,
+  fieldset[disabled] .btn-xl:focus,
+  fieldset[disabled] .btn-xl.focus {
+    background-color: #1abc9c;
+    border-color: #1abc9c; }
+  .btn-xl .badge {
+    color: #1abc9c;
+    background-color: white; }
 
 ::-moz-selection {
   text-shadow: none;
@@ -303,10 +347,12 @@ section.ar_contact {
   section.ar_contact .ar_contact_row {
     padding-top: 2%; }
   section.ar_contact .section-heading {
-    color: goldenrod !important; }
+    color: #1abc9c !important; }
   section.ar_contact textarea {
     height: 150px !important; }
   section.ar_contact footer {
     color: white;
     height: 70px;
     background-color: rgba(0, 0, 0, 0.7); }
+    section.ar_contact footer .social-buttons li a:hover, section.ar_contact footer .social-buttons li a:focus, section.ar_contact footer .social-buttons li a:active {
+      background-color: #1abc9c; }

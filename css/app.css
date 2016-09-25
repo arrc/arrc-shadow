@@ -69,6 +69,37 @@ p {
   font-family: 'aleo' !important;
   font-style: italic; }
 
+.navbar-custom .navbar-brand {
+  color: #1abc9c; }
+  .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
+    color: #148f77; }
+
+.navbar-custom .navbar-toggle {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  color: white;
+  font-size: 12px; }
+  .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+    background-color: #1abc9c; }
+
+.navbar-custom .nav li a {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white; }
+  .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
+    color: #1abc9c;
+    outline: none; }
+
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #1abc9c; }
+
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #148f77; }
+
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: rgba(0, 0, 0, 0.7); } }

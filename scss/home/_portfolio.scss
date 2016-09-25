@@ -1,3 +1,9 @@
+#portfolio .portfolio-item {
+    .portfolio-hover {
+        background: fade-out($theme-primary, .2) !important;
+    }
+}
+
 #portfolio .portfolio-item .portfolio-caption {
     padding: 20px 5px;
 }
@@ -47,10 +53,10 @@
         font-size: 1.5em;
         a {
             padding: 5px;
-            color: goldenrod;
+            color: $theme-secondary;
         }
         a:hover {
-            color: rgba(aqua, 0.6);
+            color: rgba($theme-secondary, 0.6);
         }
     }
 }

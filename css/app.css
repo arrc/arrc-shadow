@@ -219,6 +219,9 @@ p {
       content: '\2022';
       margin-right: 5px; }
 
+#portfolio .portfolio-item .portfolio-hover {
+  background: rgba(26, 188, 156, 0.8) !important; }
+
 #portfolio .portfolio-item .portfolio-caption {
   padding: 20px 5px; }
 
@@ -255,7 +258,7 @@ p {
       padding: 5px;
       color: goldenrod; }
     .ar_portfolio_meta .ar_i_links a:hover {
-      color: rgba(0, 255, 255, 0.6); }
+      color: rgba(218, 165, 32, 0.6); }
 
 .modal-content {
   background-color: rgba(105, 105, 105, 0.7); }
